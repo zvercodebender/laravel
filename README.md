@@ -6,6 +6,7 @@ A docker container to manage the development environment for Laravel application
 
 Run the Laravel container with MySQL as the database and Adminer as a DB Management tool.  The bellow docker-compose file also allows you to mount your Laravel application under the current direction and the MySQL database files
 
+*docker-compose.yaml*
 ```
 laravel:
   image: rbroker/laravel:latest
